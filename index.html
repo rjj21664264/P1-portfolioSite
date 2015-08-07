@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>My First Project</title>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="bootstrap/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bootstrap/css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<main class="container site-margin">
+
+    <!-- TODO: add header -->
+		<header class="row">
+			<div class="col-xs-4 col-sm-5 col-md-6 logo-margin">
+				  <img width="110" height="110" viewbox="0 0 110 110" class="logo-size" src="img/logo.svg" alt="Udacity Logo">
+			</div>
+			<div class="col-xs-8 col-sm-7 col-md-6 text-right text-uppercase header-text">
+				<h1>Junjun Ruan</h1>
+				<h4 class="text-muted">Front-end ninja</h4>
+			</div>
+		</header>
+
+    <!-- TODO: add horizontal line -->
+		<hr class="horizon-line">
+
+    <!--TODO: add navigate bar, show drop down menu in small screen-->
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Menu</a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="myNavbar">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Home</a></li>
+		        <li><a href="#">Project 1</a></li>
+		        <li><a href="#">Project 2</a></li>
+		        <li><a href="#">Project 3</a></li>
+		        <li><a href="#">Contact Me</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+
+		<!-- TODO: add main page -->
+		<section class="row">
+			<div class="col-md-12">
+				<img class="img-responsive" width="1140" height="550" viewbox="0 0 1140 550" src="img/main-img.svg" alt="Picture is not found">
+		  </div>
+		</section>
+			<h2>Featured Work</h2>
+		<section class="row text-center">
+			<div class="col-md-4 col-xs-12">
+				<img class="img-responsive" src="http://lorempixel.com/555/300" alt="Picture is not found" data-toggle="modal" data-target="#project1">
+				<h3 class="text-uppercase text-muted">Project 1</h3>
+				<p class="text-thin link-text"><a href="http://www.google.com/">http://www.google.com/</a></p>
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<img class="img-responsive" src="http://lorempixel.com/555/300" alt="Picture is not found" data-toggle="modal" data-target="#project2">
+				<h3 class="text-uppercase text-muted">Project 2</h3>
+				<p class="text-thin link-text"><a href="http://www.google.com/">http://www.google.com/</a></p>
+			</div>
+			<div class="col-md-4 col-xs-12">
+				<img class="img-responsive" src="http://lorempixel.com/555/300" alt="Picture is not found" data-toggle="modal" data-target="#project3">
+				<h3 class="text-uppercase text-muted">Project 3</h3>
+				<p class="text-thin link-text"><a href="http://www.google.com/">http://www.google.com/</a></p>
+			</div>
+		</section>
+
+		<!-- TODO: add footer -->
+		<hr class="footer-line">
+		<footer class="text-center footer-text">
+				<p><span>Contact information:</span><span><a href="mailto:junjunruan@gmail.com">junjunruan@gmail.com</a></span></p>
+		</footer>
+	</main>
+
+
+    <!-- TODO: add Modal, the following code should be simplified after learned javaScript -->
+	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h4 class="modal-title" id="myModalLabel">Project 1</h4>
+      			</div>
+      			<div class="modal-body">
+        			<img class="img-responsive" src="http://lorempixel.com/555/300/" alt="image not found">
+        			<h5>This was my first project, it is used to show all of my portfolios. I learned a lot about HTML, CSS, Bootstrap Framework. All content is responsive and can be fitted well on all display sizes like desktop, tablet and mobile.</h5>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+	<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabe2" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h4 class="modal-title" id="myModalLabe2">Project 2</h4>
+      			</div>
+      			<div class="modal-body">
+        			<img class="img-responsive" src="http://lorempixel.com/555/300/" alt="image not found">
+        			<h5>This was my second project.</h5>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+	<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabe3" aria-hidden="true">
+  		<div class="modal-dialog">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h4 class="modal-title" id="myModalLabe3">Project 3</h4>
+      			</div>
+      			<div class="modal-body">
+        			<img class="img-responsive" src="http://lorempixel.com/555/300/" alt="image not found">
+        			<h5>This was my third project.</h5>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+  		</div>
+	</div>
+
+</body>
+</html>

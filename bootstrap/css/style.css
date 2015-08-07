@@ -1,0 +1,191 @@
+/*
+ * common
+ */
+
+* {
+ 	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.site-margin {
+	max-width: 70%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-muted {
+	font-weight: 400;
+	color: #666756;
+}
+
+.text-thin {
+	font-weight: 100;
+	color: #bcbbbb;
+}
+
+a {
+	padding: 1em;
+}
+
+/*
+ * header
+ */
+
+ .logo-margin {
+	margin-top: 4%;
+}
+
+.header-text {
+	margin-top: 3%;
+}
+
+h1 {
+  color: #666756;
+	font-size: 4em;
+  font-weight: 100;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+.horizon-line {
+	border-width: 2px;
+	margin-bottom: 0;
+}
+
+/*
+ * navigate bar
+ */
+
+ nav a {
+ 	font-size: 1.2em;
+ }
+
+/*
+ * main page
+ */
+
+h2 {
+  color: #bcbbbb;
+  font-weight: 400;
+	display: block;
+	font-size: 2.5em;
+	margin-top: 1.5em;
+}
+
+h3 {
+	font-size: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+
+.link-text {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+/*
+ * footer
+ */
+
+.footer-line {
+	border-width: 3px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+footer p {
+	margin-bottom: 50px;
+}
+
+.footer-text {
+	font-size: 1.3em;
+}
+
+/*
+ * modal
+ */
+
+h5 {
+	font-size: 1.2em;
+	padding: 0.5em;
+}
+
+/*
+ * media query
+ */
+
+@media screen and (max-width: 1024px) {
+
+	h1 {
+		font-size: 3em;
+	}
+
+	.link-text {
+		font-size: 1.2em;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	a {
+		padding: 1.2em;
+	}
+
+  .header-text {
+  	margin-top: 8%;
+  }
+
+	h1 {
+		font-size: 1.3em;
+		margin-left: 0;
+	}
+
+	h4 {
+		font-size: 0.9em;
+		margin-left: 0;
+	}
+
+	.logo-size {
+		width: 100%;
+		height: 100%;
+	}
+
+	.logo-margin {
+		margin-top: 15%;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	}
+
+	.link-text {
+		font-size: 1em;
+		margin-bottom: 1.2em;
+	}
+
+	.footer-line {
+		margin-top: 10px;
+	}
+
+	footer p span {
+		display: block;
+	}
+
+	.footer-text {
+		font-size: 1em;
+	}
+}
