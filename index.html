@@ -3,22 +3,21 @@
 <head>
 	<title>My First Project</title>
 	<meta charset="utf-8">
-	<meta name="viewpoint" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="bootstrap/js/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="bootstrap/js/jquery-1.11.3.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="bootstrap/css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400">
 </head>
 
 <body>
 	<main class="container site-margin">
 
-    <!-- TODO: add header -->
+		<!-- TODO: add header -->
 		<header class="row">
 			<div class="col-xs-4 col-sm-5 col-md-6 logo-margin">
-				  <img width="110" height="110" viewbox="0 0 110 110" class="logo-size" src="img/logo.svg" alt="Udacity Logo">
+				<img src="img/logo.svg" alt="Udacity Logo" class="logo-size">
 			</div>
 			<div class="col-xs-8 col-sm-7 col-md-6 text-right text-uppercase header-text">
 				<h1>Junjun Ruan</h1>
@@ -26,36 +25,36 @@
 			</div>
 		</header>
 
-    <!-- TODO: add horizontal line -->
+		<!-- TODO: add horizontal line -->
 		<hr class="horizon-line">
 
-    <!--TODO: add navigate bar, show drop down menu in small screen-->
+		<!--TODO: add navigate bar, show drop down menu in small screen-->
 		<nav class="navbar navbar-default">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#">Menu</a>
-		    </div>
-		    <div class="collapse navbar-collapse" id="myNavbar">
-		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="#">Home</a></li>
-		        <li><a href="#">Project 1</a></li>
-		        <li><a href="#">Project 2</a></li>
-		        <li><a href="#">Project 3</a></li>
-		        <li><a href="#">Contact Me</a></li>
-		      </ul>
-		    </div>
-		  </div>
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand nav-text" href="#">Menu</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav nav-text">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">Project 1</a></li>
+						<li><a href="#">Project 2</a></li>
+						<li><a href="#">Project 3</a></li>
+						<li><a href="#">Contact Me</a></li>
+					</ul>
+				</div>
+			</div>
 		</nav>
 
 		<!-- TODO: add main page -->
 		<section class="row">
 			<div class="col-md-12">
-				<img class="img-responsive" width="1140" height="550" viewbox="0 0 1140 550" src="img/main-img.svg" alt="Picture is not found">
+				<img class="img-responsive" src="img/main-img.svg" alt="Picture is not found" width="1140" height="550">
 		  </div>
 		</section>
 			<h2>Featured Work</h2>
@@ -80,59 +79,59 @@
 		<!-- TODO: add footer -->
 		<hr class="footer-line">
 		<footer class="text-center footer-text">
-				<p><span>Contact information:</span><span><a href="mailto:junjunruan@gmail.com">junjunruan@gmail.com</a></span></p>
+				<p><span class="footer-align">Contact information:</span><span class="footer-align"><a href="mailto:junjunruan@gmail.com">junjunruan@gmail.com</a></span></p>
 		</footer>
 	</main>
 
 
-    <!-- TODO: add Modal, the following code should be simplified after learned javaScript -->
+	<!-- TODO: add Modal, the following code should be simplified after learned javaScript -->
 	<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  		<div class="modal-dialog">
-    		<div class="modal-content">
-      			<div class="modal-header">
-        			<h4 class="modal-title" id="myModalLabel">Project 1</h4>
-      			</div>
-      			<div class="modal-body">
-        			<img class="img-responsive" src="http://lorempixel.com/555/300/" alt="image not found">
-        			<h5>This was my first project, it is used to show all of my portfolios. I learned a lot about HTML, CSS, Bootstrap Framework. All content is responsive and can be fitted well on all display sizes like desktop, tablet and mobile.</h5>
-      			</div>
-      			<div class="modal-footer">
-        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      			</div>
-    		</div>
-  		</div>
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Project 1</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="http://lorempixel.com/555/300/" alt="image not found">
+					<h5>This was my first project, it is used to show all of my portfolios. I learned a lot about HTML, CSS, Bootstrap Framework. All content is responsive and can be fitted well on all display sizes like desktop, tablet and mobile.</h5>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabe2" aria-hidden="true">
-  		<div class="modal-dialog">
-    		<div class="modal-content">
-      			<div class="modal-header">
-        			<h4 class="modal-title" id="myModalLabe2">Project 2</h4>
-      			</div>
-      			<div class="modal-body">
-        			<img class="img-responsive" src="http://lorempixel.com/555/300/" alt="image not found">
-        			<h5>This was my second project.</h5>
-      			</div>
-      			<div class="modal-footer">
-        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      			</div>
-    		</div>
-  		</div>
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabe2">Project 2</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="http://lorempixel.com/555/300/" alt="image not found">
+					<h5>This was my second project.</h5>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
 	</div>
 	<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabe3" aria-hidden="true">
-  		<div class="modal-dialog">
-    		<div class="modal-content">
-      			<div class="modal-header">
-        			<h4 class="modal-title" id="myModalLabe3">Project 3</h4>
-      			</div>
-      			<div class="modal-body">
-        			<img class="img-responsive" src="http://lorempixel.com/555/300/" alt="image not found">
-        			<h5>This was my third project.</h5>
-      			</div>
-      			<div class="modal-footer">
-        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      			</div>
-    		</div>
-  		</div>
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabe3">Project 3</h4>
+				</div>
+				<div class="modal-body">
+					<img class="img-responsive" src="http://lorempixel.com/555/300/" alt="image not found">
+					<h5>This was my third project.</h5>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
 	</div>
 
 </body>
